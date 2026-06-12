@@ -22,29 +22,8 @@
   `}</style>
 
   <div style={{ position: 'relative', display: 'flex', flex: 1, height: '100%', background: '#08080d', borderRadius: 16, overflow: 'hidden' }}>
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmVyNmVtYnVubXg1Mmw1MTZ5Y29hdXN0dzJlOTFtNzVmNWwycmgxbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fVsVfxVwz40I24GT7X/giphy.gif" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.35 }} />
-    <svg width="100%" height="220" style={{ position: 'absolute', top: 0, left: 0 }}>
-      <defs>
-        <radialGradient id="ab-gl" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="rgba(108,195,130,0.6)" />
-          <stop offset="100%" stopColor="rgba(108,195,130,0)" />
-        </radialGradient>
-        <radialGradient id="ab-gr" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="rgba(230,100,115,0.5)" />
-          <stop offset="100%" stopColor="rgba(230,100,115,0)" />
-        </radialGradient>
-        <radialGradient id="ab-gb" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="rgba(195,155,255,0.35)" />
-          <stop offset="100%" stopColor="rgba(195,155,255,0)" />
-        </radialGradient>
-      </defs>
-      <ellipse id="ab-o1" cx="40"  cy="180" rx="130" ry="110" fill="url(#ab-gl)" />
-      <ellipse id="ab-o2" cx="320" cy="40"  rx="120" ry="100" fill="url(#ab-gr)" />
-      <ellipse id="ab-o3" cx="260" cy="200" rx="100" ry="90"  fill="url(#ab-gb)" />
-      <circle id="ab-r1" cx="165" cy="110" r="38"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-      <circle id="ab-r2" cx="165" cy="110" r="65"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-      <circle id="ab-r3" cx="165" cy="110" r="100" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    </svg>
+    <img src="https://www.cjoint.com/doc/22_10/LJhx05V3V6O_le-thousand-sunny-fond-decran-anime-de-one-piece.gif" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.35 }} />
+    
     <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '0 28px', zIndex: 10 }}>
       <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', letterSpacing: 3, textTransform: 'uppercase', marginBottom: 10 }}> Software Engineer · DevOps · SRE </span>
       <span style={{ fontSize: 22, fontWeight: 600, color: '#ffffff', lineHeight: 1.3 }}>Hi ,I'm Ashmit</span>
@@ -56,7 +35,7 @@
 
   <div style={{ display: 'flex', flexDirection: 'column', gap: 16, width: 220, flexShrink: 0 }}>
     <div style={{ position: 'relative', display: 'flex', flex: 1, background: '#08080d', borderRadius: 16, overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
-      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW95cTRnOXM1dTc1YTFwNjRkcGNkN2RqYjdhdTB3NTc3NDFiNjFxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h58dtf5vTpjulO4M5o/giphy.gif" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.3 }} />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvpM2tPhtH3St6_pviw5Py01EywWEjmT3P_cFRNrWLew&s=10" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.3 }} />
       <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
         <span style={{ fontSize: 32, fontWeight: 700, color: '#ffffff' }}>🎯</span>
         <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, textTransform: 'uppercase', marginTop: 4 }}>always learning</span>
