@@ -1,7 +1,6 @@
 
 
 
-# ABOUT ME 
 
 
 ```aura
@@ -52,9 +51,6 @@
 </div>
 ```
 
-
-
-# FOOTER
 
 ```aura
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
