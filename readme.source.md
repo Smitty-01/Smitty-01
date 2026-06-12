@@ -1,8 +1,4 @@
 
-
-
-
-
 ```aura
 <div style={{ display: 'flex', flexDirection: 'row', gap: 16, width: '100%', height: '100%', fontFamily: 'Inter, sans-serif' }}>
   <style>{`
@@ -50,8 +46,6 @@
   </div>
 </div>
 ```
-
-
 ```aura
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
   <style>{`
