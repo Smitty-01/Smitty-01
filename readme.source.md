@@ -1,6 +1,9 @@
 
 ```aura
-<div style={{ display: 'flex', flexDirection: 'row', gap: 16, width: '100%', height: '100%', fontFamily: 'Inter, sans-serif' }}>
+<div style={{ display: 'flex', flexDirection: 'row', gap: 16, width: '100%', height: '100%', fontFamily: 'Bebas Neue, Impact, sans-serif', letterSpacing: 1 }}>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  </style>
   <style>{`
     @keyframes about-orb-l { 0%, 100% { transform: translate(0,0); opacity: 0.65; } 50% { transform: translate(20px,-14px); opacity: 0.9; } }
     @keyframes about-orb-r { 0%, 100% { transform: translate(0,0); opacity: 0.55; } 50% { transform: translate(-16px,12px); opacity: 0.8; } }
@@ -21,21 +24,32 @@
     
     <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '0 28px', zIndex: 10 }}>
       <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', letterSpacing: 3, textTransform: 'uppercase', marginBottom: 10 }}> Software Engineer · DevOps · SRE </span>
-      <span style={{ fontSize: 22, fontWeight: 600, color: '#ffffff', lineHeight: 1.3 }}>Hi ,I'm Ashmit</span>
-      
-        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', fontFamily: 'monospace' }}>{'> open to collaborations'}</span>
-        <span id="ab-cursor" style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', fontFamily: 'monospace', marginLeft: 1 }}>_</span>
+      <span style={{ fontSize: 36, color: '#ffffff', lineHeight: 1.1, letterSpacing: 2 }}>Hi, I'm Ashmit</span>
+      <span style={{ fontSize: 18, color: 'rgba(255,255,255,0.95)', maxWidth: 520, marginTop: 12, lineHeight: 1.4 }}>
+        Delivering scalable DevOps and SRE solutions through container pipelines and infra automation.
+      </span>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginTop: 16, maxWidth: 520 }}>
+        <a href="https://www.credly.com/badges/d884d83b-c5ae-43d4-b4bc-0c9e77e7f646/public_url" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', fontSize: 11, fontWeight: 600, color: '#ff6666', padding: '6px 14px', background: 'rgba(255,102,102,0.1)', border: '1px solid rgba(255,102,102,0.25)', borderRadius: 999, display: 'flex', alignItems: 'center', gap: 6 }}>
+          <img src="https://skillicons.dev/icons?i=redhat" width={14} height={14} /> RHCSA Certified
+        </a>
+        <span style={{ fontSize: 11, fontWeight: 600, color: '#66b3ff', padding: '6px 14px', background: 'rgba(102,179,255,0.1)', border: '1px solid rgba(102,179,255,0.25)', borderRadius: 999, display: 'flex', alignItems: 'center', gap: 6 }}>
+          💧 Intern @ Bisleri
+        </span>
+        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.7)', padding: '6px 14px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 999 }}>
+          DevOps & SRE
+        </span>
+      </div>
     </div>
   </div>
 
   <div style={{ display: 'flex', flexDirection: 'column', gap: 16, width: 220, flexShrink: 0 }}>
-    <div style={{ position: 'relative', display: 'flex', flex: 1, background: '#08080d', borderRadius: 16, overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
+    <a href="https://www.credly.com/badges/d884d83b-c5ae-43d4-b4bc-0c9e77e7f646/public_url" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', position: 'relative', display: 'flex', flex: 1, background: '#08080d', borderRadius: 16, overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvpM2tPhtH3St6_pviw5Py01EywWEjmT3P_cFRNrWLew&s=10" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.3 }} />
       <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
        
         <span style={{ fontWeight: 700,fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, textTransform: 'uppercase', marginTop: 4 }}>REDHATTER</span>
       </div>
-    </div>
+    </a>
     <div style={{ position: 'relative', display: 'flex', flex: 1, background: '#08080d', borderRadius: 16, overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
       <img src="https://img.artpal.com/893313/10-24-6-6-20-45-20m.jpg" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.3 }} />
       <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
