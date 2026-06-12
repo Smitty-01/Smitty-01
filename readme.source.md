@@ -81,7 +81,7 @@
   return (
     <div style={{
       width: '100%', height: '100%',
-      background: '#08080c',
+      background: '#363636',
       display: 'flex', flexDirection: 'column',
       fontFamily: 'Manrope', padding: '18px 32px', gap: 14,
       borderRadius: 16, border: '1px solid rgba(110,80,220,0.18)',
@@ -155,8 +155,8 @@
       <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
         {categories.map(function(cat) {
           return (
-            <div key={cat.title} style={{ display:'flex', alignItems:'flex-start', gap:16 }}>
-              <div style={{ display:'flex', fontSize:10, fontWeight:700, color:cat.color, letterSpacing:'1px', width:130, minWidth:130, marginTop:14 }}>
+            <div key={cat.title} style={{ display:'flex', alignItems:'flex-start', gap:8, minHeight: 88 }}>
+              <div style={{ display:'flex', fontSize:10, fontWeight:700, color:cat.color, letterSpacing:'1px', width:130, minWidth:130 }}>
                 {cat.title.toUpperCase()}
               </div>
               <div style={{ display:'flex', flexWrap:'wrap', gap:7, alignItems:'center' }}>
