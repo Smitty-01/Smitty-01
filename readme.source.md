@@ -62,32 +62,52 @@
   background:'#0d0b1a',
   borderRadius:18,
   border:'1px solid rgba(140,100,255,0.2)',
-  display:'flex',
-  alignItems:'center',
-  gap:14,
-  padding:'0 20px',
   overflow:'hidden',
-  fontFamily:'Inter'
+  position:'relative',
+  fontFamily:'Inter',
+  display:'flex'
 }}>
-  {[
-    ['Linux','#6ef0e8'], ['Red Hat','#ff9090'], ['Kubernetes','#7ab8ff'],
-    ['Docker','#c4a8ff'], ['Terraform','#ffd080'], ['Ansible','#7af0a0'],
-    ['AWS','#7ab8ff'], ['Python','#f0a8e0'], ['Go','#6ef0e8'],
-    ['C++','#c4a8ff'], ['gRPC','#7af0a0'], ['Redis','#ffd080'],
-    ['Next.js','#7ab8ff'], ['FastAPI','#f0a8e0'], ['Prometheus','#6ef0e8'], ['Grafana','#c4a8ff']
-  ].map(([name,color])=>(
-    <div style={{
-      display:'flex', alignItems:'center', gap:7,
-      padding:'8px 16px', borderRadius:999,
-      border:`1px solid ${color}55`,
-      color:color,
-      fontSize:13, fontWeight:600,
-      whiteSpace:'nowrap'
-    }}>
-      <div style={{width:7,height:7,borderRadius:'50%',background:color}}/>
-      {name}
-    </div>
-  ))}
+  <style>{`
+    @keyframes scrollPills {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-1240px); }
+    }
+    #pillTrack {
+      animation: scrollPills 22s linear infinite;
+    }
+  `}</style>
+
+  <div id="pillTrack" style={{
+    display:'flex',
+    gap:14,
+    padding:'18px 20px',
+    width:'2480px'
+  }}>
+    {[
+      ['Linux','#6ef0e8'], ['Red Hat','#ff9090'], ['Kubernetes','#7ab8ff'],
+      ['Docker','#c4a8ff'], ['Terraform','#ffd080'], ['Ansible','#7af0a0'],
+      ['AWS','#7ab8ff'], ['Python','#f0a8e0'], ['Go','#6ef0e8'],
+      ['C++','#c4a8ff'], ['gRPC','#7af0a0'], ['Redis','#ffd080'],
+      ['Next.js','#7ab8ff'], ['FastAPI','#f0a8e0'], ['Prometheus','#6ef0e8'], ['Grafana','#c4a8ff'],
+      ['Linux','#6ef0e8'], ['Red Hat','#ff9090'], ['Kubernetes','#7ab8ff'],
+      ['Docker','#c4a8ff'], ['Terraform','#ffd080'], ['Ansible','#7af0a0'],
+      ['AWS','#7ab8ff'], ['Python','#f0a8e0'], ['Go','#6ef0e8'],
+      ['C++','#c4a8ff'], ['gRPC','#7af0a0'], ['Redis','#ffd080'],
+      ['Next.js','#7ab8ff'], ['FastAPI','#f0a8e0'], ['Prometheus','#6ef0e8'], ['Grafana','#c4a8ff']
+    ].map(([name,color])=>(
+      <div style={{
+        display:'flex', alignItems:'center', gap:7,
+        padding:'8px 16px', borderRadius:999,
+        border:`1px solid ${color}55`,
+        color:color,
+        fontSize:13, fontWeight:600,
+        whiteSpace:'nowrap'
+      }}>
+        <div style={{width:7,height:7,borderRadius:'50%',background:color}}/>
+        {name}
+      </div>
+    ))}
+  </div>
 </div>
 ```
 
