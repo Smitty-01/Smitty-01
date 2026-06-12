@@ -1,9 +1,6 @@
 
 ```aura
-<div style={{ display: 'flex', flexDirection: 'row', gap: 16, width: '100%', height: '100%', fontFamily: 'Bebas Neue, Impact, sans-serif', letterSpacing: 1 }}>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-  </style>
+<div style={{ display: 'flex', flexDirection: 'row', gap: 16, width: '100%', height: '100%', fontFamily: '"Bebas Neue", Impact, sans-serif', letterSpacing: 1 }}>
   <style>{`
     @keyframes about-orb-l { 0%, 100% { transform: translate(0,0); opacity: 0.65; } 50% { transform: translate(20px,-14px); opacity: 0.9; } }
     @keyframes about-orb-r { 0%, 100% { transform: translate(0,0); opacity: 0.55; } 50% { transform: translate(-16px,12px); opacity: 0.8; } }
