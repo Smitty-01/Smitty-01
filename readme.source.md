@@ -1,5 +1,5 @@
 
-```aura width=800 height=180
+```aura width=800 height=220
 <div style={{ display: 'flex', flexDirection: 'row', gap: 16, width: '100%', height: '100%', fontFamily: '"Bebas Neue", Impact, sans-serif', letterSpacing: 1 }}>
   <style>{`
     @keyframes about-orb-l { 0%, 100% { transform: translate(0,0); opacity: 0.65; } 50% { transform: translate(20px,-14px); opacity: 0.9; } }
@@ -203,7 +203,7 @@
 
 
 
-```aura width=800 height=360
+```aura width=800 height=280
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
   <style>{`
     @keyframes orb-a { 0%, 100% { transform: translate(0, 0); opacity: 0.6; } 50% { transform: translate(28px, -22px); opacity: 0.9; } }
@@ -225,7 +225,7 @@
     #hero-dot { animation: dot-spin 20s linear infinite; }
   `}</style>
 
-  <svg width="800" height="360" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="800" height="280" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="hg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(108,195,130,0.55)" />
@@ -248,18 +248,18 @@
         <stop offset="100%" stopColor="rgba(80,160,220,0)" />
       </radialGradient>
     </defs>
-    <ellipse id="hero-o1" cx="110" cy="310" rx="260" ry="200" fill="url(#hg1)" />
-    <ellipse id="hero-o2" cx="710" cy="70" rx="230" ry="190" fill="url(#hg2)" />
-    <ellipse id="hero-o3" cx="620" cy="330" rx="200" ry="160" fill="url(#hg3)" />
-    <ellipse id="hero-o4" cx="200" cy="55" rx="190" ry="150" fill="url(#hg4)" />
-    <ellipse id="hero-o5" cx="400" cy="340" rx="170" ry="130" fill="url(#hg5)" />
-    <circle id="hr1" cx="400" cy="178" r="52"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr2" cx="400" cy="178" r="92"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr3" cx="400" cy="178" r="138" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr4" cx="400" cy="178" r="192" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr5" cx="400" cy="178" r="256" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <ellipse id="hero-o1" cx="110" cy="240" rx="260" ry="200" fill="url(#hg1)" />
+    <ellipse id="hero-o2" cx="710" cy="55" rx="230" ry="190" fill="url(#hg2)" />
+    <ellipse id="hero-o3" cx="620" cy="260" rx="200" ry="160" fill="url(#hg3)" />
+    <ellipse id="hero-o4" cx="200" cy="40" rx="190" ry="150" fill="url(#hg4)" />
+    <ellipse id="hero-o5" cx="400" cy="270" rx="170" ry="130" fill="url(#hg5)" />
+    <circle id="hr1" cx="400" cy="140" r="52"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="hr2" cx="400" cy="140" r="92"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="hr3" cx="400" cy="140" r="138" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="hr4" cx="400" cy="140" r="192" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="hr5" cx="400" cy="140" r="256" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
     <g id="hero-dot">
-      <circle cx="400" cy="126" r="2.5" fill="rgba(255,255,255,0.5)" />
+      <circle cx="400" cy="88" r="2.5" fill="rgba(255,255,255,0.5)" />
     </g>
   </svg>
 
