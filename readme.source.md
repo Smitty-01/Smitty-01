@@ -1,60 +1,3 @@
-```aura width=860 height=240
-<div style={{
-  width:'100%',
-  height:'100%',
-  background:'#06060f',
-  borderRadius:18,
-  border:'1px solid rgba(160,120,255,0.22)',
-  padding:32,
-  display:'flex',
-  flexDirection:'column',
-  fontFamily:'Inter',
-  position:'relative',
-  overflow:'hidden'
-}}>
-  <div style={{
-    position:'absolute', width:180, height:180, top:-55, left:-45,
-    borderRadius:'50%',
-    background:'radial-gradient(circle, rgba(90,50,220,0.13), transparent 70%)'
-  }}/>
-  <div style={{
-    position:'absolute', width:130, height:130, bottom:-35, right:-20,
-    borderRadius:'50%',
-    background:'radial-gradient(circle, rgba(60,140,255,0.1), transparent 70%)'
-  }}/>
-
-  <div style={{fontSize:12, color:'#7a72a8', letterSpacing:2, textTransform:'uppercase', marginBottom:10, fontWeight:600}}>
-    Software Engineer · DevOps · SRE
-  </div>
-
-  <div style={{fontSize:34, fontWeight:800, color:'#f0ecff', marginBottom:12, letterSpacing:-0.8}}>
-    Hi, I'm Ashmit 👋
-  </div>
-
-  <div style={{fontSize:15, color:'#9d95c5', lineHeight:1.75}}>
-    DevOps and SRE enthusiast focused on Linux, Kubernetes, cloud infrastructure and automation.
-    RHCSA certified · Targeting CKA → EX280 → Red Hat SRE.
-  </div>
-
-  <div style={{marginTop:18, display:'flex', gap:10, flexWrap:'wrap'}}>
-    {[
-      '📍 Mumbai, India',
-      '🎓 DJ Sanghvi · B.Tech IT · 2027',
-      '🏢 Bisleri International · Trainee Engineer'
-    ].map(tag => (
-      <div style={{
-        fontSize:12, color:'#8a82b8',
-        background:'rgba(100,60,200,0.1)',
-        border:'1px solid rgba(130,90,255,0.18)',
-        padding:'5px 13px', borderRadius:20
-      }}>
-        {tag}
-      </div>
-    ))}
-  </div>
-</div>
-```
-
 ```aura width=860 height=80
 <div style={{
   width:'100%',
@@ -65,23 +8,25 @@
   overflow:'hidden',
   position:'relative',
   fontFamily:'Inter',
-  display:'flex'
+  display:'flex',
+  alignItems:'center'
 }}>
   <style>{`
     @keyframes scrollPills {
       from { transform: translateX(0); }
-      to   { transform: translateX(-1240px); }
+      to { transform: translateX(-2624px); }
     }
-    #pillTrack {
+    .pillTrack {
       animation: scrollPills 22s linear infinite;
     }
   `}</style>
 
-  <div id="pillTrack" style={{
+  <div className="pillTrack" style={{
     display:'flex',
     gap:14,
     padding:'18px 20px',
-    width:'2480px'
+    width:'5248px',
+    willChange:'transform'
   }}>
     {[
       ['Linux','#6ef0e8'], ['Red Hat','#ff9090'], ['Kubernetes','#7ab8ff'],
@@ -98,43 +43,19 @@
       <div style={{
         display:'flex', alignItems:'center', gap:7,
         padding:'8px 16px', borderRadius:999,
+        width:150,
+        flex:'0 0 150px',
+        justifyContent:'center',
         border:`1px solid ${color}55`,
         color:color,
         fontSize:13, fontWeight:600,
-        whiteSpace:'nowrap'
+        whiteSpace:'nowrap',
+        boxSizing:'border-box'
       }}>
         <div style={{width:7,height:7,borderRadius:'50%',background:color}}/>
         {name}
       </div>
     ))}
-  </div>
-</div>
-```
-
-```aura width=420 height=220 inline align=center
-<div style={{
-  width:'100%',
-  height:'100%',
-  background:'#08080c',
-  borderRadius:18,
-  border:'1px solid rgba(160,120,255,0.22)',
-  padding:26,
-  display:'flex',
-  flexDirection:'column',
-  fontFamily:'Inter'
-}}>
-  <div style={{
-    fontSize:21, fontWeight:700, marginBottom:16,
-    color:'#c9aaff'
-  }}>
-    About Me
-  </div>
-  <div style={{fontSize:15, color:'#9d95c5', lineHeight:1.75}}>
-    Interning at Bisleri International on their D2C delivery platform.
-
-    Targeting Cloud/SRE at Red Hat — RHCSA → CKA → EX280 → Go roadmap.
-
-    Building ResuMatch for placements and gRPC/C++ systems work.
   </div>
 </div>
 ```
