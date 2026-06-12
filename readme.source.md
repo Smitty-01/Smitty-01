@@ -81,7 +81,7 @@
   return (
     <div style={{
       width: '100%', height: '100%',
-      background: '#363636',
+      background: '#302d2d',
       display: 'flex', flexDirection: 'column',
       fontFamily: 'Manrope', padding: '18px 32px', gap: 14,
       borderRadius: 16, border: '1px solid rgba(110,80,220,0.18)',
