@@ -91,7 +91,7 @@
 </div>
 ```
 
-```aura width=420 height=220
+```aura width=420 height=220 inline align=center
 <div style={{
   width:'100%',
   height:'100%',
@@ -119,7 +119,7 @@
 </div>
 ```
 
-```aura width=420 height=220
+```aura width=420 height=220 inline align=center
 <div style={{
   width:'100%',
   height:'100%',
